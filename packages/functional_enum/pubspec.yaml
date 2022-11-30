@@ -10,5 +10,9 @@ dependencies:
   analyzer: ^5.1.0
   build: ^2.3.1
   build_config: ^1.1.0
-  functional_enum_annotation: ^1.2.3
+  functional_enum_annotation:
+    git:
+      url: https://github.com/qb20nh/functional_enum.git
+      ref: master
+      path: packages/functional_enum_annotation
   source_gen: ^1.2.5
